@@ -19,13 +19,13 @@ const display = Fjalla_One({
 });
 
 export const metadata: Metadata = {
-  title: "ProLine Content Corps - Agency website template by Cosmic",
-  description: "A Cosmic template built with Blocks.",
+  title: "Programas cognitivos de Transformación de Hábitos",
+  description: "Programas breves diseñados para ayudar a las personas a transformar sus hábitos y comportamientos de manera personalizada y eficaz.",
   openGraph: {
-    title: "ProLine Content Corps - Agency website template by Cosmic",
-    description: "A Cosmic template built with Blocks.",
+    title: "Neuroar, sistemas y programas neurocognitivos de avanzada.",
+    description: "Sistema de gestión de transformación de hábitos.",
     images:
-      "https://imgix.cosmicjs.com/69313380-b156-11ee-9844-f9a09795e2a3-desktop.png?auto=format,compression",
+      "https://https://file.notion.so/f/f/8166b9fc-920e-4068-87a2-faa4a3557fec/4849778f-1398-414c-97d5-812c7985fcc6/1000000374.png?table=block&id=18dea117-7729-8044-937d-c52212f741f9&spaceId=8166b9fc-920e-4068-87a2-faa4a3557fec&expirationTimestamp=1738958400000&signature=plkMllSz6_j26Q_pICqfeIQ-u78nFI1__rjVuV4N6Kg",
   },
 };
 
@@ -35,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning>
       <body
         className={`${display.variable} ${sans.variable} font-sans md:p-0 bg-white dark:bg-black h-dvh w-full`}
       >
