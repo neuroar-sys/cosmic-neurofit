@@ -18,8 +18,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["var(--font-sans)", "sans-serif"],
-        display: ["var(--font-display)", "sans-serif"],
+        sans: ["Alegreya", "var(--font-sans)", "sans-serif"],
+        display: ["Playfair Display", "var(--font-display)", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
