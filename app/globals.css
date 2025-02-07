@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Poppins:wght@400&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -74,10 +74,12 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: 'Alegreya', sans-serif; /* Aplicar Alegreya al cuerpo de texto */
+    font-family: 'Lato', sans-serif; /* Aplicar Lato al cuerpo de texto */
+    font-size: 16px; /* Establecer tamaño de fuente a 16px */
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', sans-serif; /* Aplicar Playfair Display a cabeceras */
+    font-family: 'Poppins', sans-serif; /* Aplicar Poppins a cabeceras */
+    font-weight: 400; /* Usar Poppins Regular 400 */
   }
 }
 
