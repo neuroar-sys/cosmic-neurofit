@@ -79,22 +79,22 @@ export function ContactForm({ className }: { className?: string }) {
   }
   return (
     <div className={cn("mb-8", className)}>
-      <h2 className="mb-4 text-2xl">Contact us</h2>
+      <h2 className="mb-4 text-2xl">Contactarnos</h2>
       {error && (
         <div className="mb-4 flex rounded-xl border border-red-500 p-8">
           <XCircle className="relative top-1 mr-4 h-4 w-4 shrink-0 text-red-500" />
-          There was an error with your request. Make sure all fields are valid.
+          Hubo un error con tu solicitud. Asegúrese de que todos los campos sean válidos.
         </div>
       )}
       {sumbitted ? (
         <div className="flex rounded-xl border border-green-500 p-8">
           <CheckCircle className="relative top-1 mr-4 h-4 w-4 shrink-0 text-green-500" />
-          Message submitted.
+          Mensaje enviado.
         </div>
       ) : (
         <>
           <div className="mb-4">
-            <Label htmlFor="name">Your full name *</Label>
+            <Label htmlFor="name">Nombre completo *</Label>
             <Input
               id="name"
               placeholder="Name"
@@ -103,7 +103,7 @@ export function ContactForm({ className }: { className?: string }) {
             />
           </div>
           <div className="mb-4">
-            <Label htmlFor="email">Your email *</Label>
+            <Label htmlFor="email">Tu email *</Label>
             <Input
               id="email"
               placeholder="Email"
@@ -112,7 +112,7 @@ export function ContactForm({ className }: { className?: string }) {
             />
           </div>
           <div className="mb-4">
-            <Label htmlFor="email">Company *</Label>
+            <Label htmlFor="email">Empresa *</Label>
             <Input
               id="company"
               placeholder="Company"
@@ -121,7 +121,7 @@ export function ContactForm({ className }: { className?: string }) {
             />
           </div>
           <div className="mb-4">
-            <Label htmlFor="message">Message *</Label>
+            <Label htmlFor="message">Mensaje *</Label>
             <Textarea
               id="message"
               placeholder="Message"
@@ -138,10 +138,10 @@ export function ContactForm({ className }: { className?: string }) {
               {submitting ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                  Submitting...
+                  Enviando...
                 </>
               ) : (
-                `Submit`
+                `Enviar mensaje`
               )}
             </Button>
           </div>
