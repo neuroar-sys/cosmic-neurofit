@@ -47,7 +47,7 @@ export async function Page({
                   )}
                   href="/signup"
                 >
-                  Get started free
+                  Unete ahora
                 </Link>
                 <Link
                   className={cn(
@@ -58,7 +58,7 @@ export async function Page({
                   )}
                   href="/contact"
                 >
-                  Contact us
+                  Habla con un experto
                 </Link>
               </div>
             </div>
