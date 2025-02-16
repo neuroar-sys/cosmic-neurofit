@@ -97,7 +97,7 @@ export function ContactForm({ className }: { className?: string }) {
             <Label htmlFor="name">Nombre completo *</Label>
             <Input
               id="name"
-              placeholder="Name"
+              placeholder="Nombre"
               onChange={handleChangeName}
               value={name}
             />
@@ -115,7 +115,7 @@ export function ContactForm({ className }: { className?: string }) {
             <Label htmlFor="email">Empresa *</Label>
             <Input
               id="company"
-              placeholder="Company"
+              placeholder="Empresa"
               onChange={handleChangeCompany}
               value={company}
             />
@@ -124,7 +124,7 @@ export function ContactForm({ className }: { className?: string }) {
             <Label htmlFor="message">Mensaje *</Label>
             <Textarea
               id="message"
-              placeholder="Message"
+              placeholder="Mensaje"
               onChange={handleChangeMessage}
               value={message}
             />
