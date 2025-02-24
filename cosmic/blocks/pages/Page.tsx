@@ -47,7 +47,7 @@ export async function Page({
                   )}
                   href="/signup"
                 >
-                  Unete ahora
+                  Comienza ahora
                 </Link>
                 <Link
                   className={cn(
