@@ -25,6 +25,6 @@ export default function Banner(): JSX.Element {
           </svg>
         </a>
       </div>
-  
+    </div>
   );
 }
