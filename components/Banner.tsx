@@ -9,9 +9,8 @@ export default function Banner(): JSX.Element {
             className="text-[#25D366] dark:text-[#25D366] font-medium ml-2"
             aria-label="Contactar por WhatsApp"
           >
-            WhatsApp 
+          › WhatsApp 
           </a>
-           ahora.
         </span>
       </div>
     </div>
