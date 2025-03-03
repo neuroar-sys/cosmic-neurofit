@@ -2,26 +2,17 @@ export default function Banner(): JSX.Element {
   return (
     <div className="bg-zinc-100 text-center md:flex justify-center p-5 dark:bg-zinc-800 text-base">
       <div className="mt-2">
-        <span>Incorporate como coordinador/a solicitá una entrevista por whatsapp ahora</span>
-        <a
-          href="https://wa.me/541157577039"
-          className="text-[#25D366] dark:text-[#25D366] font-medium ml-2"
-          aria-label="Contactar por WhatsApp"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-            width="37"
-            height="37"
-            fill="none"
-            className="inline"
+        <span>
+          Incorporate como coordinador/a, clic aquí{' '}
+          <a
+            href="https://wa.me/541157577039"
+            className="text-[#25D366] dark:text-[#25D366] font-medium ml-2"
+            aria-label="Contactar por WhatsApp"
           >
-            <path
-              d="M380.9 97.1c-45.5-45.5-106.1-70.6-170.6-70.6C113.1 26.5 9.4 130.2 9.4 256c0 45.1 11.5 89.3 33.4 128.3L0 512l131.9-42.9c38.3 20.9 81.1 31.9 124.4 31.9h.1c125.8 0 229.5-103.7 229.5-229.5 0-64.5-25.1-125.1-70.6-170.6zM256.5 468.3c-38.1 0-75.1-10-107.3-28.9l-7.7-4.5-78.6 25.5 25.5-78.6-4.5-7.7c-18.9-32.2-28.9-69.2-28.9-107.3 0-116.5 94.8-211.3 211.3-211.3 56.4 0 109.4 22 149.3 61.9 39.9 39.9 61.9 92.9 61.9 149.3 0 116.4-94.8 211.2-211.3 211.2zm121.1-153.3l-39.2-11.2c-5.3-1.5-10.9-.1-14.7 3.7l-12.5 12.8c-3.6 3.7-9.2 4.8-14.2 2.8-20.4-8.2-43.1-25.7-60.4-43.1-17.3-17.3-35-40.2-43.1-60.4-2.1-5-.7-10.7 2.8-14.2l12.8-12.5c3.8-3.8 5.1-9.4 3.7-14.7l-11.2-39.2c-1.7-5.8-7-9.8-12.9-9.8-33.2 0-75.2 38.3-75.2 83.3 0 45.2 32.8 97.8 73.2 138.2 40.4 40.4 93 73.2 138.2 73.2 45 0 83.3-42.1 83.3-75.2 0-5.9-4-11.2-9.8-12.9z"
-              fill="#25D366"
-            />
-          </svg>
-        </a>
+            WhatsApp
+          </a>
+          ahora.
+        </span>
       </div>
     </div>
   );
